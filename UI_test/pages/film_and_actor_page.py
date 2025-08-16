@@ -1,4 +1,4 @@
-from ProjectAutotest.UI_test.pages.base_page import BasePage
+from UI_test.pages.base_page import BasePage
 
 
 class FilmPage(BasePage):

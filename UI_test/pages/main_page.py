@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from ProjectAutotest.UI_test.pages.base_page import BasePage
+from UI_test.pages.base_page import BasePage
 
 
 class MainPage(BasePage):

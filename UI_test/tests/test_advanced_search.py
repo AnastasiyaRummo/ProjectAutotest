@@ -1,9 +1,9 @@
 import allure
 from selenium.webdriver.common.by import By
-from ProjectAutotest.UI_test.config_local import (
-    base_url, film_name, film_year, genre)
-from ProjectAutotest.UI_test.pages.base_page import BasePage
-from ProjectAutotest.UI_test.pages.advanced_search_page import (
+from config_local import (
+    base_url_ui, film_name, film_year, genre)
+from UI_test.pages.base_page import BasePage
+from UI_test.pages.advanced_search_page import (
     AdvancedSearchPage)
 
 
@@ -11,7 +11,7 @@ from ProjectAutotest.UI_test.pages.advanced_search_page import (
 @allure.story("Поиск фильма с фильтрами: название, год, жанр")
 def test_advanced_search(browser):
     base_page = BasePage(browser)
-    base_page.open(base_url)
+    base_page.open(base_url_ui)
 
     # Переход в расширенный поиск
     advanced_search = browser.find_element(By.CSS_SELECTOR,
