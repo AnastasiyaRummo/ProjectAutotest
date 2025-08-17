@@ -48,12 +48,14 @@
 
 ### Шаги
 1. Склонировать проект 'git clone https://github.com/имя_пользователя/ pytest_ui_api_template.git'
-2. Установить зависимости pip3 install > -r requirements.txt
-3. Запустить тесты 'pytest -s -v'
-4. Сгенерировать отчет: 
+2. Создать виртуальное окружение 'python -m venv venv'
+3. Активировать виртуальное окружение 
+4. Установить зависимости pip3 install -r requirements.txt
+5. Запустить тесты 'pytest -s -v'
+6. Сгенерировать отчет: 
    - перейти в нужную директорию для сохранения отчета
    - ввести команду 'allure generate allure-files -o allure-report'
-5. Открыть отчет 'allure open allure-report'
+7. Открыть отчет 'allure open allure-report'
 
 ### В UI-тесты входят:
 - Простой поиск фильмов по названию 
