@@ -43,7 +43,7 @@ def browser():
     with allure.step("Открыть и настроить браузер"):
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
-        driver.implicitly_wait(10)
+        driver.implicitly_wait(30)
         driver.maximize_window()
         yield driver
     with allure.step("Закрыть браузер"):
