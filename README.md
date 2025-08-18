@@ -7,7 +7,6 @@
 - selenium
 - webdriver manager
 - requests
-- _sqlalchemy_
 - allure
 - config
 - json
@@ -47,11 +46,11 @@
 - [Финальный проект по ручному тестированию](https://an-rummo.yonote.ru/doc/avtotesty-mZfnaGKIAg)
 
 ### Шаги
-1. Склонировать проект 'git clone https://github.com/имя_пользователя/ pytest_ui_api_template.git'
+1. Склонировать проект 'git clone https://github.com/AnastasiyaRummo/ProjectAutotest.git'
 2. Создать виртуальное окружение 'python -m venv venv'
 3. Активировать виртуальное окружение 
 4. Установить зависимости pip3 install -r requirements.txt
-5. Запустить тесты 'pytest -s -v'
+5. Запустить тесты 'pytest'
 6. Сгенерировать отчет: 
    - перейти в нужную директорию для сохранения отчета
    - ввести команду 'allure generate allure-files -o allure-report'
