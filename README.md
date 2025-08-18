@@ -50,7 +50,10 @@
 2. Создать виртуальное окружение 'python -m venv venv'
 3. Активировать виртуальное окружение 
 4. Установить зависимости pip3 install -r requirements.txt
-5. Запустить тесты 'pytest'
+5. Запустить тесты:
+   - все тесты сразу 'pytest'
+   - только API тесты 'pytest API_test'
+   - только UI тесты 'pytest UI_test'
 6. Сгенерировать отчет: 
    - перейти в нужную директорию для сохранения отчета
    - ввести команду 'allure generate allure-files -o allure-report'
